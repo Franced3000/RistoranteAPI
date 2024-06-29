@@ -1,7 +1,5 @@
 import { DataTypes, Model, InferAttributes, InferCreationAttributes, CreationOptional } from 'sequelize';
 import sequelize from '../config';
-import Table from './tavolo';
-import Customer from './cliente';
 
 // Class definition using Model with type inference
 class Reservation extends Model<InferAttributes<Reservation>, InferCreationAttributes<Reservation>> {

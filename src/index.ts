@@ -1,3 +1,5 @@
+/* eslint @typescript-eslint/no-var-requires: "off" */
+/* eslint @typescript-eslint/no-unused-vars: "off" */
 
 import express, { Application, Request, Response } from 'express'
 import router from './routes'; 
